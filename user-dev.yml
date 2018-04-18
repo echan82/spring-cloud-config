@@ -1,0 +1,7 @@
+logging:
+  file: /home/logs/application.log
+  pattern:
+    console: "%d{yyyy-MM-dd_HH:mm:ss.SSS} | %-4relative [%thread] %-5level %logger{35} - %msg%n"
+    file: "%d{yyyy-MM-dd_HH:mm:ss.SSS} | %-4relative [%thread] %-5level %logger{35} - %msg%n"
+  level:
+    org.beautifulstore: DEBUG
