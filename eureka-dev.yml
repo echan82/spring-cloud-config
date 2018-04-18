@@ -1,1 +1,2 @@
-
+CONFIG_SERVER_URL: http://localhost:8888
+PORT: 8777
